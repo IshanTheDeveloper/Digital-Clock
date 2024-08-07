@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("image1.avif");
+  background-size: cover;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 3px 3px 5px rgb(128, 128, 128, 0.5);
+}
+
+#main-heading {
+  background-color: white;
+  font-size: 5vw;
+  width: 90%;
+  text-align: center;
+  color: black;
+}
+
+#images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+
+#images img {
+  max-width: 100%;
+}
+#img1 {
+  height: 3rem;
+}
+#img2 {
+  height: 3.3rem;
+}
+#hour,
+#min,
+#sec,
+.colon {
+  color: white;
+  font-size: 10vw;
+}
+
+.container {
+  height: 40vh;
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3vh;
+}
+.container2 {
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+
+  width: 100vw;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255, 0.2);
+  gap: 4rem;
+  height: 30vh;
+  width: 62vw;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: rgb(255, 255, 255, 0.2);
+  padding: 2vh;
+  width: 60vw;
+  margin-top: 5vh;
+}
+@media (max-width: 500px) {
+  .container1 {
+    height: 15vh;
+    width: 90vw;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .main {
+    height: 30vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+p {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 2vw;
+}
+
+.category1 p {
+  font-size: 2vw;
+  margin-top: 1.5vw;
+}
+#month,
+#day,
+#year,
+#date {
+  font-size: 4vw;
+}
